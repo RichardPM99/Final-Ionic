@@ -10,6 +10,7 @@ import { TestComponent } from './test/test.component';
 import { ColoresComponent } from './colores/colores.component';
 import { AbecedarioComponent } from './abecedario/abecedario.component';
 import { NumerosComponent } from './numeros/numeros.component';
+import { DiasComponent } from './dias/dias.component';
 
 @NgModule({
   imports: [
@@ -40,9 +41,13 @@ import { NumerosComponent } from './numeros/numeros.component';
       {
         path: 'numeros',
         component: NumerosComponent
+      },
+      {
+        path: 'dias',
+        component: DiasComponent
       }
     ])
   ],
-  declarations: [HomePage,TestComponent,Content1Component,ColoresComponent,AbecedarioComponent,NumerosComponent]
+  declarations: [HomePage,TestComponent,Content1Component,ColoresComponent,AbecedarioComponent,NumerosComponent,DiasComponent]
 })
 export class HomePageModule {}
