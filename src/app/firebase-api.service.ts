@@ -19,11 +19,11 @@ export class FirebaseApiService {
   }
 
   public updateClient(Client: Client){
-    return this.firebaseAPI.database.ref('clientes/'+Client.id).set(Client);
+   // return this.firebaseAPI.database.ref('clientes/'+Client.id).set(Client);
   }
 
   public deleteClients(Client: Client){
-    return this.firebaseAPI.database.ref('clientes/'+ Client.id).remove();
+    //return this.firebaseAPI.database.ref('clientes/'+ Client.id).remove();
   }
 
 }

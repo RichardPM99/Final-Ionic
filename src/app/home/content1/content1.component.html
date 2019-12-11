@@ -1,3 +1,20 @@
-<p>
-  content1 works!
-</p>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngFor="let quote of quotes">
+        <ion-item>
+          
+          <ion-icon name="pin" slot="start"></ion-icon>
+          <ion-label>{{quote.imagen}}</ion-label>
+        </ion-item>
+      
+        <ion-card-content>
+        </ion-card-content>
+      </ion-card>
+</ion-content>

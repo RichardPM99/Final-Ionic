@@ -5,8 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import { TestComponent } from '../test/test.component';
 import { Content1Component } from './content1/content1.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   imports: [

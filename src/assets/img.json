@@ -1,0 +1,95 @@
+{
+    "clients" : [
+        {
+            "imagen": "familia/abuela.jpg"
+        },
+        {
+            "id": 2,
+            "isActivate": true,
+            "age": 19,
+            "name": "Luis Ernesto Ramirez Castillo",
+            "gender": "male",
+            "company": "UTT",
+            "email": "a3518110065@alumno.uttehuacan.edu.mx",
+            "phone": "+1 (238) 2107-151",
+            "address": "28 poniente , #200, int:6"
+        },
+        {
+            "id": 3,
+            "isActivate": true,
+            "age": 21,
+            "name": "Brayan Morales Roman",
+            "gender": "male",
+            "company": "UTT",
+            "email": "a3518110055@alumno.uttehuacan.edu.mx",
+            "phone": "+1 (879) 543-9220",
+            "address": "169 Rutledge Street, konterra, Northen Mariana Island, 8551"
+        },
+        {
+            "id": 4,
+            "isActivate": true,
+            "age": 20,
+            "name": "Ricardo Piña Mendiola",
+            "gender": "male",
+            "company": "BYTEC",
+            "email": "a3518110232@alumno.uttehuacan.edu.mx",
+            "phone": "+1 (238) 1317-064",
+            "address": "4 Poniente #25"
+        },
+        {
+            "id": 5,
+            "isActivate": true,
+            "age": 20,
+            "name": "Ricardo Piña Mendiola",
+            "gender": "male",
+            "company": "BYTEC",
+            "email": "a3518110232@alumno.uttehuacan.edu.mx",
+            "phone": "+1 (238) 1317-064",
+            "address": "4 Poniente #25"
+        },
+        {
+            "id": 6,
+            "isActivate": true,
+            "age": 20,
+            "name": "Ricardo Piña Mendiola",
+            "gender": "male",
+            "company": "BYTEC",
+            "email": "a3518110232@alumno.uttehuacan.edu.mx",
+            "phone": "+1 (238) 1317-064",
+            "address": "4 Poniente #25"
+        },
+        {
+            "id": 7,
+            "isActivate": true,
+            "age": 20,
+            "name": "Ricardo Piña Mendiola",
+            "gender": "male",
+            "company": "BYTEC",
+            "email": "a3518110232@alumno.uttehuacan.edu.mx",
+            "phone": "+1 (238) 1317-064",
+            "address": "4 Poniente #25"
+        },
+        {
+            "id": 8,
+            "isActivate": true,
+            "age": 20,
+            "name": "Ricardo Piña Mendiola",
+            "gender": "male",
+            "company": "BYTEC",
+            "email": "a3518110232@alumno.uttehuacan.edu.mx",
+            "phone": "+1 (238) 1317-064",
+            "address": "4 Poniente #25"
+        },
+        {
+            "id": 9,
+            "isActivate": true,
+            "age": 20,
+            "name": "Ricardo Piña Mendiola",
+            "gender": "male",
+            "company": "BYTEC",
+            "email": "a3518110232@alumno.uttehuacan.edu.mx",
+            "phone": "+1 (238) 1317-064",
+            "address": "4 Poniente #25"
+        }
+    ]
+}

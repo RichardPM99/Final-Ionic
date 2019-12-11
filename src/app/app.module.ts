@@ -13,7 +13,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
-import { TestComponent } from './test/test.component';
+import {HttpClientModule} from "@angular/common/http";
 
 
   var firebaseConfig = {
@@ -29,7 +29,7 @@ import { TestComponent } from './test/test.component';
 @NgModule({
   declarations: [AppComponent,LoginComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,FormsModule, ReactiveFormsModule,AngularFireModule.initializeApp(firebaseConfig),
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,FormsModule, HttpClientModule,ReactiveFormsModule,AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,],
   providers: [
     StatusBar,
