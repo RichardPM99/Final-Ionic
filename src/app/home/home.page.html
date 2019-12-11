@@ -7,16 +7,98 @@
 </ion-header>
 
 <ion-content>
-    <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
-        </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-      </div>
+    <ion-list>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Familia</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-button fill="outline" slot="end" [routerLink]="['pantallas']">View</ion-button>
+              <ion-img style="width: 50%;" src="/assets/familia.jpg"></ion-img>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+        
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Colores</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-button fill="outline" slot="end" [routerLink]="['pantallas']">View</ion-button>
+              <ion-img style="width: 50%;" src="/assets/colores-en-ingles.jpg"></ion-img>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+        
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Sujetos</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-button fill="outline" slot="end" [routerLink]="['pantallas']">View</ion-button>
+              <ion-img style="width: 50%;" src="/assets/io.jpeg"></ion-img>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+        
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Numeros</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-button fill="outline" slot="end" [routerLink]="['pantallas']">View</ion-button>
+              <ion-img style="width: 50%;" src="/assets/numeros.jpg"></ion-img>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+        
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Abecedario</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-button fill="outline" slot="end" [routerLink]="['pantallas']">View</ion-button>
+              <ion-img style="width: 50%;" src="/assets/abecedario.jpg"></ion-img>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+        
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Lugares</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-button fill="outline" slot="end" [routerLink]="['pantallas']">View</ion-button>
+              <ion-img style="width: 50%;" src="/assets/lugares.jpg"></ion-img>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+        
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Animales</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-button fill="outline" slot="end" [routerLink]="['pantallas']">View</ion-button>
+              <ion-img style="width: 50%;" src="/assets/animales.jpg"></ion-img>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+        
+     
+      </ion-list>
+      
+      <ion-list>
+          <ion-img  class="spla" style="width: 30%; margin-left: 40%; " src="../../assets/images.png"></ion-img>
+          <br>
+          <ion-button class="text-center" [routerLink]="['content1']">Ir</ion-button>
+  <ion-label >REALIZAR TEST</ion-label>
+      </ion-list>
 </ion-content>
