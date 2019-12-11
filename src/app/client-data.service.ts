@@ -8,17 +8,17 @@ import { ClientService } from './client.service';
 export class ClientDataService {
   private clientes: Client[] = [];
 
-  constructor(private dataSource: ClientService) { 
+  constructor(private dataSource: ClientService) {
     this.dataSource.getClients()
-      .subscribe((response) =>{
+      .subscribe((response) => {
         this.clientes = response.clients;
       })
 
   }
-    
 
-      getClients():Client[] {
-        return this.clientes;
-        
-      }
+
+  getClients(): Client[] {
+    return this.clientes;
+
+  }
 }

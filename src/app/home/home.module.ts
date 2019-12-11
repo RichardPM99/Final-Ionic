@@ -7,6 +7,9 @@ import { RouterModule } from '@angular/router';
 import { HomePage } from './home.page';
 import { Content1Component } from './content1/content1.component';
 import { TestComponent } from './test/test.component';
+import { ColoresComponent } from './colores/colores.component';
+import { AbecedarioComponent } from './abecedario/abecedario.component';
+import { NumerosComponent } from './numeros/numeros.component';
 
 @NgModule({
   imports: [
@@ -25,9 +28,21 @@ import { TestComponent } from './test/test.component';
       {
         path: 'content1',
         component: Content1Component
+      },
+      {
+        path: 'colores',
+        component: ColoresComponent
+      },
+      {
+        path: 'abecedario',
+        component: AbecedarioComponent
+      },
+      {
+        path: 'numeros',
+        component: NumerosComponent
       }
     ])
   ],
-  declarations: [HomePage,TestComponent,Content1Component]
+  declarations: [HomePage,TestComponent,Content1Component,ColoresComponent,AbecedarioComponent,NumerosComponent]
 })
 export class HomePageModule {}

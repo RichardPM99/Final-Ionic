@@ -1,95 +1,128 @@
 {
-    "clients" : [
+    "clients": [
         {
-            "imagen": "familia/abuela.jpg"
+            "imagen": "./assets/familia/abuela.jpg",
+            "imagen2": "./assets/abecedario/A.PNG",
+            "imagen3": "./assets/colores/amarillo.PNG",
+            "imagen4": "./assets/dias/domingo.jfif",
+            "imagen5": "./assets/numeros/0.PNG"
         },
         {
-            "id": 2,
-            "isActivate": true,
-            "age": 19,
-            "name": "Luis Ernesto Ramirez Castillo",
-            "gender": "male",
-            "company": "UTT",
-            "email": "a3518110065@alumno.uttehuacan.edu.mx",
-            "phone": "+1 (238) 2107-151",
-            "address": "28 poniente , #200, int:6"
+            "imagen": "./assets/familia/abuelo.jpg",
+            "imagen2": "./assets/abecedario/B.PNG",
+            "imagen3": "./assets/colores/azul.PNG",
+            "imagen4": "./assets/dias/jueves.jfif",
+            "imagen5": "./assets/numeros/1.PNG"
         },
         {
-            "id": 3,
-            "isActivate": true,
-            "age": 21,
-            "name": "Brayan Morales Roman",
-            "gender": "male",
-            "company": "UTT",
-            "email": "a3518110055@alumno.uttehuacan.edu.mx",
-            "phone": "+1 (879) 543-9220",
-            "address": "169 Rutledge Street, konterra, Northen Mariana Island, 8551"
+            "imagen": "./assets/familia/hermana.jpg",
+            "imagen2": "./assets/abecedario/C.PNG",
+            "imagen3": "./assets/colores/blanco.PNG",
+            "imagen4": "./assets/dias/lunes.jfif",
+            "imagen5": "./assets/numeros/2.PNG"
         },
         {
-            "id": 4,
-            "isActivate": true,
-            "age": 20,
-            "name": "Ricardo Piña Mendiola",
-            "gender": "male",
-            "company": "BYTEC",
-            "email": "a3518110232@alumno.uttehuacan.edu.mx",
-            "phone": "+1 (238) 1317-064",
-            "address": "4 Poniente #25"
+            "imagen": "./assets/familia/hermano.jpg",
+            "imagen2": "./assets/abecedario/D.PNG",
+            "imagen3": "./assets/colores/cafe.PNG",
+            "imagen4": "./assets/dias/martes.jfif",
+            "imagen5": "./assets/numeros/3.PNG"
         },
         {
-            "id": 5,
-            "isActivate": true,
-            "age": 20,
-            "name": "Ricardo Piña Mendiola",
-            "gender": "male",
-            "company": "BYTEC",
-            "email": "a3518110232@alumno.uttehuacan.edu.mx",
-            "phone": "+1 (238) 1317-064",
-            "address": "4 Poniente #25"
+            "imagen": "./assets/familia/hija.jpg",
+            "imagen2": "./assets/abecedario/E.PNG",
+            "imagen3": "./assets/colores/gris.PNG",
+            "imagen4": "./assets/dias/miercoles.jfif",
+            "imagen5": "./assets/numeros/4.PNG"
         },
         {
-            "id": 6,
-            "isActivate": true,
-            "age": 20,
-            "name": "Ricardo Piña Mendiola",
-            "gender": "male",
-            "company": "BYTEC",
-            "email": "a3518110232@alumno.uttehuacan.edu.mx",
-            "phone": "+1 (238) 1317-064",
-            "address": "4 Poniente #25"
+            "imagen": "./assets/familia/hijo.jpg",
+            "imagen2": "./assets/abecedario/F.PNG",
+            "imagen3": "./assets/colores/morado.PNG",
+            "imagen4": "./assets/dias/sabado.jfif",
+            "imagen5": "./assets/numeros/5.PNG"
         },
         {
-            "id": 7,
-            "isActivate": true,
-            "age": 20,
-            "name": "Ricardo Piña Mendiola",
-            "gender": "male",
-            "company": "BYTEC",
-            "email": "a3518110232@alumno.uttehuacan.edu.mx",
-            "phone": "+1 (238) 1317-064",
-            "address": "4 Poniente #25"
+            "imagen": "./assets/familia/mamá.jpg",
+            "imagen2": "./assets/abecedario/G.PNG",
+            "imagen3": "./assets/colores/naranja.PNG",
+            "imagen4": "./assets/dias/viernes.jfif",
+            "imagen5": "./assets/numeros/6.PNG"
         },
         {
-            "id": 8,
-            "isActivate": true,
-            "age": 20,
-            "name": "Ricardo Piña Mendiola",
-            "gender": "male",
-            "company": "BYTEC",
-            "email": "a3518110232@alumno.uttehuacan.edu.mx",
-            "phone": "+1 (238) 1317-064",
-            "address": "4 Poniente #25"
+            "imagen": "./assets/familia/nieta.jpg",
+            "imagen2": "./assets/abecedario/H.PNG",
+            "imagen3": "./assets/colores/negro.PNG",
+            "imagen5": "./assets/numeros/7.PNG"
         },
         {
-            "id": 9,
-            "isActivate": true,
-            "age": 20,
-            "name": "Ricardo Piña Mendiola",
-            "gender": "male",
-            "company": "BYTEC",
-            "email": "a3518110232@alumno.uttehuacan.edu.mx",
-            "phone": "+1 (238) 1317-064",
-            "address": "4 Poniente #25"
+            "imagen": "./assets/familia/nieto.jpg",
+            "imagen2": "./assets/abecedario/I.PNG",
+            "imagen3": "./assets/colores/rojo.PNG",
+            "imagen5": "./assets/numeros/8.PNG"
+        },
+        {
+            "imagen": "./assets/familia/padres.jpg",
+            "imagen2": "./assets/abecedario/J.PNG",
+            "imagen3": "./assets/colores/rosa.PNG",
+            "imagen5": "./assets/numeros/9.PNG"
+        },
+        {
+            "imagen": "./assets/familia/papá.jpg",
+            "imagen2": "./assets/abecedario/K.PNG",
+            "imagen3": "./assets/colores/verde.PNG",
+            "imagen5": "./assets/numeros/10.PNG"
+        },
+        {
+            "imagen": "./assets/familia/prima.jpg",
+            "imagen2": "./assets/abecedario/L.PNG"
+        },
+        {
+            "imagen": "./assets/familia/primo.jpg",
+            "imagen2": "./assets/abecedario/M.PNG"
+        },
+        {
+            "imagen": "./assets/familia/sobrina.jpg",
+            "imagen2": "./assets/abecedario/N.PNG"
+        },
+        {
+            "imagen": "./assets/familia/sobrino.jpg",
+            "imagen2": "./assets/abecedario/O.PNG"
+        },
+        {
+            "imagen": "./assets/familia/tia.jpg",
+            "imagen2": "./assets/abecedario/P.PNG"
+        },
+        {
+            "imagen": "./assets/familia/tio.jpg",
+            "imagen2": "./assets/abecedario/Q.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/R.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/S.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/T.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/U.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/V.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/W.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/X.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/Y.PNG"
+        },
+        {
+            "imagen2": "./assets/abecedario/Z.PNG"
         }
     ]
 }
